@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, input, button {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.opt {
+  float: right;
+  max-width: 100%;
+  padding: 0 0 15px;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+
+  .opt button.btnRegister {
+
+    border: 0px;
+    border-radius: 2px;
+    width: 150px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #900e0e;
+    color: #fff;
+    cursor: pointer;
+  
+  }
+  .opt button.btnRegister:hover {
+    background: #9f3535;
+  }
+  .optLogout button.logout {
+    float: left;
+    border: 0px;
+  }
+  .optLogout button.logout:hover {
+    cursor: pointer;
+    color: #900e0e;
+    float: left;
+    border: 0px;
+  }
+
+  button.actions {
+    border: 0px;
+    padding: 0 4px 0 0;
+    cursor: pointer;
+    color: #292929;
+  }
+  button.btnCancel {
+  
+    border: 0px;
+    border-radius: 2px;
+    width: 150px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #9f3535;
+    color: #fff;
+    cursor: pointer;
+  
+  }
+
+button.btnRegister {
+
+    border: 0px;
+    border-radius: 2px;
+    width: 150px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #900e0e;
+    color: #fff;
+    cursor: pointer;
+  
+  }
+button.btnRegister:hover {
+    background: #9f3535;
+  }
+
+  button.actions:hover {
+    color: #9f3535;
+  }
+
+  .actionsLink:link{
+    text-decoration: none;
+    color: #292929;
+  }
+
+  .actionsLink:visited{
+    text-decoration: none;
+    color: #292929;
+  }
+
+  .actionsLink:hover{
+    color: #900e0e;
+  }
+
+  .modal > p {
+    color: rgb(75, 75, 75);
+    padding: 15px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  .modal > h3 {
+    color: rgb(75, 75, 75);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+  }

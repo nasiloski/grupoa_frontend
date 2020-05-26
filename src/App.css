@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body, #root {
+  min-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background: #000 url('./assets/background.jpg') no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body, input, button {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.topBar { 
+  background-color: #333;
+  overflow: hidden;
+  
+}
+
+.container {
+  margin: 80px auto 0;
+  max-width: 900px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.contentLogin {
+  width: 50%;
+  background: #ffffff;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 30px;
+}
+.contentLogin > p {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.contentLogin form {
+  display: flex;
+  flex-direction: column;
+}
+.contentLogin form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contentLogin form input {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.contentLogin button.btn {
+  border: 0px;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #900e0e;
+  color: #fff;
+  cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.contentLogin button.btn:hover {
+  background: #9f3535;
+}
+.contentDashboard {
+  width: 100%;
+  background: #ffffff;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 30px;
 }

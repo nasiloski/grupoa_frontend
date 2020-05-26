@@ -1,0 +1,62 @@
+.contentStudent {
+  width: 600px;
+  background: #ffffff;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding: 30px;
+}
+.contentStudent button.btnStudent {
+  
+  border: 0px;
+  border-radius: 2px;
+  width: 150px;
+  height: 35px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #900e0e;
+  color: #fff;
+  cursor: pointer;
+  
+}
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+.contentStudent button.btnStudent:hover {
+  background: #9f3535;
+}
+.contentStudent button.btnCancel {
+  
+  border: 0px;
+  border-radius: 2px;
+  width: 150px;
+  height: 35px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #9f3535;
+  color: #fff;
+  cursor: pointer;
+
+}
+.contentStudent form {
+  display: flex;
+  flex-direction: column;
+}
+.contentStudent form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contentStudent form input {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+
+}
