@@ -24,3 +24,7 @@ Para instalar as dependencias do projeto
 yarn install
 
 Yarn build para montar o projeto estático.
+
+para o primeiro acesso a plataforma utilize as credenciais abaixo:
+login: admin
+senha: admin
