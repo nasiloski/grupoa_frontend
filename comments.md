@@ -23,4 +23,4 @@ Para instalar as dependencias do projeto
 
 yarn install
 
-Yarn build para subir o projeto em produção
+Yarn build para montar o projeto estático.
